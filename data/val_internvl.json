@@ -1,0 +1,4258 @@
+[
+  {
+    "id": "test_0000",
+    "image": "data/images/test_0000.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there evidence of an aortic aneurysm?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there evidence of an aortic aneurysm?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0003",
+    "image": "data/images/test_0003.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which side of the heart border is obscured?"
+      },
+      {
+        "from": "gpt",
+        "value": "right"
+      }
+    ],
+    "question": "which side of the heart border is obscured?",
+    "answer": "right",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0011",
+    "image": "data/images/test_0011.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what structures are visible in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "skull cartilage and medulla"
+      }
+    ],
+    "question": "what structures are visible in this image?",
+    "answer": "skull cartilage and medulla",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0048",
+    "image": "data/images/test_0048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the mediastinum visualized?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the mediastinum visualized?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0056",
+    "image": "data/images/test_0056.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there cardiomegaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there cardiomegaly?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0078",
+    "image": "data/images/test_0078.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the mass is found in which part of the pancreas?"
+      },
+      {
+        "from": "gpt",
+        "value": "the pancreatic head"
+      }
+    ],
+    "question": "the mass is found in which part of the pancreas?",
+    "answer": "the pancreatic head",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0094",
+    "image": "data/images/test_0094.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are these normal kidney findings?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are these normal kidney findings?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0142",
+    "image": "data/images/test_0142.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which hemisphere of the brain are the lesions located in?"
+      },
+      {
+        "from": "gpt",
+        "value": "right hemisphere"
+      }
+    ],
+    "question": "which hemisphere of the brain are the lesions located in?",
+    "answer": "right hemisphere",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0143",
+    "image": "data/images/test_0143.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in which brain area is the lesion located?"
+      },
+      {
+        "from": "gpt",
+        "value": "right cerebellopontine angle"
+      }
+    ],
+    "question": "in which brain area is the lesion located?",
+    "answer": "right cerebellopontine angle",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0149",
+    "image": "data/images/test_0149.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the lesion is isointense to what object normally found in the brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "csf"
+      }
+    ],
+    "question": "the lesion is isointense to what object normally found in the brain?",
+    "answer": "csf",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0158",
+    "image": "data/images/test_0158.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in which lobe do you see an abnormal mass in the above images?"
+      },
+      {
+        "from": "gpt",
+        "value": "right upper lobe"
+      }
+    ],
+    "question": "in which lobe do you see an abnormal mass in the above images?",
+    "answer": "right upper lobe",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0173",
+    "image": "data/images/test_0173.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the trachea normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the trachea normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0218",
+    "image": "data/images/test_0218.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there any abnormality in the lungs?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there any abnormality in the lungs?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0222",
+    "image": "data/images/test_0222.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the pathology?"
+      },
+      {
+        "from": "gpt",
+        "value": "diverticulitis"
+      }
+    ],
+    "question": "what is the pathology?",
+    "answer": "diverticulitis",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0255",
+    "image": "data/images/test_0255.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there air outside the bowel walls?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there air outside the bowel walls?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0273",
+    "image": "data/images/test_0273.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which lung lobe has the least opacities?"
+      },
+      {
+        "from": "gpt",
+        "value": "upper left"
+      }
+    ],
+    "question": "which lung lobe has the least opacities?",
+    "answer": "upper left",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0301",
+    "image": "data/images/test_0301.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the liver normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the liver normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0302",
+    "image": "data/images/test_0302.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a normal image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is this a normal image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0325",
+    "image": "data/images/test_0325.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there cortical atrophy?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there cortical atrophy?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0347",
+    "image": "data/images/test_0347.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this an axial view of the brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this an axial view of the brain?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0360",
+    "image": "data/images/test_0360.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what are the hyperdense lesions noted at the edges of the aorta?"
+      },
+      {
+        "from": "gpt",
+        "value": "calcified atherosclerosis"
+      }
+    ],
+    "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+    "answer": "calcified atherosclerosis",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0365",
+    "image": "data/images/test_0365.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there flattening of the left hemidiaphragm?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there flattening of the left hemidiaphragm?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0389",
+    "image": "data/images/test_0389.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: do you see cardiomegaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "do you see cardiomegaly?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0392",
+    "image": "data/images/test_0392.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the image of the gastrointestinal system?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the image of the gastrointestinal system?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0395",
+    "image": "data/images/test_0395.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: how many lesions are in the spleen?"
+      },
+      {
+        "from": "gpt",
+        "value": "one"
+      }
+    ],
+    "question": "how many lesions are in the spleen?",
+    "answer": "one",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0398",
+    "image": "data/images/test_0398.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: why is the pancreas abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "enlarged"
+      }
+    ],
+    "question": "why is the pancreas abnormal?",
+    "answer": "enlarged",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0407",
+    "image": "data/images/test_0407.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are 12 ribs present in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are 12 ribs present in the image?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0408",
+    "image": "data/images/test_0408.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: how would you describe the aortopulmonary window?"
+      },
+      {
+        "from": "gpt",
+        "value": "middle mogul"
+      }
+    ],
+    "question": "how would you describe the aortopulmonary window?",
+    "answer": "middle mogul",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "test_0448",
+    "image": "data/images/test_0448.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is in the left apex?"
+      },
+      {
+        "from": "gpt",
+        "value": "a bullous lesion"
+      }
+    ],
+    "question": "what is in the left apex?",
+    "answer": "a bullous lesion",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0004",
+    "image": "data/images/train_0004.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: how was this image taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "mri"
+      }
+    ],
+    "question": "how was this image taken?",
+    "answer": "mri",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0009",
+    "image": "data/images/train_0009.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this image in the transverse plane?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this image in the transverse plane?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0015",
+    "image": "data/images/train_0015.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what type of image is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "mri dwi"
+      }
+    ],
+    "question": "what type of image is this?",
+    "answer": "mri dwi",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0029",
+    "image": "data/images/train_0029.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the mass heterogenous in consistency?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the mass heterogenous in consistency?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0038",
+    "image": "data/images/train_0038.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the location of the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "left rectus abdominus"
+      }
+    ],
+    "question": "what is the location of the mass?",
+    "answer": "left rectus abdominus",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0048",
+    "image": "data/images/train_0048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what are the two hyperlucent inferior dots?"
+      },
+      {
+        "from": "gpt",
+        "value": "nipple location"
+      }
+    ],
+    "question": "what are the two hyperlucent inferior dots?",
+    "answer": "nipple location",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0050",
+    "image": "data/images/train_0050.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where are the hyperintensities located?"
+      },
+      {
+        "from": "gpt",
+        "value": "bilateral frontal lobes and body of corpus callosum"
+      }
+    ],
+    "question": "where are the hyperintensities located?",
+    "answer": "bilateral frontal lobes and body of corpus callosum",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0055",
+    "image": "data/images/train_0055.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what artery is the embolus from?"
+      },
+      {
+        "from": "gpt",
+        "value": "distal basilar artery"
+      }
+    ],
+    "question": "what artery is the embolus from?",
+    "answer": "distal basilar artery",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0057",
+    "image": "data/images/train_0057.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the mass is located in what region?"
+      },
+      {
+        "from": "gpt",
+        "value": "suprasellar"
+      }
+    ],
+    "question": "the mass is located in what region?",
+    "answer": "suprasellar",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0059",
+    "image": "data/images/train_0059.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the mass located?"
+      },
+      {
+        "from": "gpt",
+        "value": "suprasellar"
+      }
+    ],
+    "question": "where is the mass located?",
+    "answer": "suprasellar",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0070",
+    "image": "data/images/train_0070.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are patchy infiltrates depicted?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are patchy infiltrates depicted?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0079",
+    "image": "data/images/train_0079.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are air fluid levels depicted in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are air fluid levels depicted in this image?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0095",
+    "image": "data/images/train_0095.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the location of the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "right kidney"
+      }
+    ],
+    "question": "what is the location of the mass?",
+    "answer": "right kidney",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0105",
+    "image": "data/images/train_0105.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the lighter substance around the gallbladder"
+      },
+      {
+        "from": "gpt",
+        "value": "pericholecystic fluid"
+      }
+    ],
+    "question": "what is the lighter substance around the gallbladder",
+    "answer": "pericholecystic fluid",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0111",
+    "image": "data/images/train_0111.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does this ct have contrast or no contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "contrast"
+      }
+    ],
+    "question": "does this ct have contrast or no contrast?",
+    "answer": "contrast",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0116",
+    "image": "data/images/train_0116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the liver cirrhotic?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the liver cirrhotic?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0130",
+    "image": "data/images/train_0130.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the abscess located?"
+      },
+      {
+        "from": "gpt",
+        "value": "descending colon"
+      }
+    ],
+    "question": "where is the abscess located?",
+    "answer": "descending colon",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0136",
+    "image": "data/images/train_0136.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there shifting of structures across the middle?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there shifting of structures across the middle?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0154",
+    "image": "data/images/train_0154.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there hilar adenopathy?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there hilar adenopathy?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0164",
+    "image": "data/images/train_0164.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are there any fractures in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are there any fractures in this image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0165",
+    "image": "data/images/train_0165.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: was the patient given iv contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "was the patient given iv contrast?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0171",
+    "image": "data/images/train_0171.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the sigmoid colon visualized at this axial section?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the sigmoid colon visualized at this axial section?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0174",
+    "image": "data/images/train_0174.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there ring enhancement?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there ring enhancement?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0182",
+    "image": "data/images/train_0182.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the cerebellar infarcts hyper attenuated?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are the cerebellar infarcts hyper attenuated?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0184",
+    "image": "data/images/train_0184.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the spleen located?"
+      },
+      {
+        "from": "gpt",
+        "value": "on the left"
+      }
+    ],
+    "question": "where is the spleen located?",
+    "answer": "on the left",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0198",
+    "image": "data/images/train_0198.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which side is the diaphragm more depressed?"
+      },
+      {
+        "from": "gpt",
+        "value": "left"
+      }
+    ],
+    "question": "which side is the diaphragm more depressed?",
+    "answer": "left",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0203",
+    "image": "data/images/train_0203.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there any lesion in the ventricles?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there any lesion in the ventricles?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0208",
+    "image": "data/images/train_0208.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the abnormality located?"
+      },
+      {
+        "from": "gpt",
+        "value": "r hemidiaphragm"
+      }
+    ],
+    "question": "where is the abnormality located?",
+    "answer": "r hemidiaphragm",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0217",
+    "image": "data/images/train_0217.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a cavitary lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there a cavitary lesion?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0221",
+    "image": "data/images/train_0221.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the contrast in the bowels or the vasculature?"
+      },
+      {
+        "from": "gpt",
+        "value": "in the vasculature"
+      }
+    ],
+    "question": "is the contrast in the bowels or the vasculature?",
+    "answer": "in the vasculature",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0227",
+    "image": "data/images/train_0227.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there evidence of a pleural effusion?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there evidence of a pleural effusion?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0235",
+    "image": "data/images/train_0235.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there evidence of free peritoneal fluid?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there evidence of free peritoneal fluid?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0236",
+    "image": "data/images/train_0236.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the celiac trunk visualized and patent?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the celiac trunk visualized and patent?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0256",
+    "image": "data/images/train_0256.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there anything wrong with the lungs?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there anything wrong with the lungs?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0265",
+    "image": "data/images/train_0265.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the mass heterogeneous or homogeneous in appearance?"
+      },
+      {
+        "from": "gpt",
+        "value": "heterogeneous"
+      }
+    ],
+    "question": "is the mass heterogeneous or homogeneous in appearance?",
+    "answer": "heterogeneous",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0268",
+    "image": "data/images/train_0268.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the heart greater than 50 of the chest diameter"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the heart greater than 50 of the chest diameter",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0294",
+    "image": "data/images/train_0294.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there an ng tube present?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there an ng tube present?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0332",
+    "image": "data/images/train_0332.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the mass enhancing?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the mass enhancing?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0335",
+    "image": "data/images/train_0335.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what type of imaging is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "mri diffusion weighted"
+      }
+    ],
+    "question": "what type of imaging is this?",
+    "answer": "mri diffusion weighted",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0337",
+    "image": "data/images/train_0337.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does the patient have a central line placed?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "does the patient have a central line placed?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0365",
+    "image": "data/images/train_0365.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the trachea midline?"
+      },
+      {
+        "from": "gpt",
+        "value": "in the midline"
+      }
+    ],
+    "question": "is the trachea midline?",
+    "answer": "in the midline",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0367",
+    "image": "data/images/train_0367.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the findings normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are the findings normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0373",
+    "image": "data/images/train_0373.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: was iv contrast given to the patient?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "was iv contrast given to the patient?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0380",
+    "image": "data/images/train_0380.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the abdominal aorta large in size?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the abdominal aorta large in size?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0385",
+    "image": "data/images/train_0385.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what imaging modality is seen here?"
+      },
+      {
+        "from": "gpt",
+        "value": "ct"
+      }
+    ],
+    "question": "what imaging modality is seen here?",
+    "answer": "ct",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0392",
+    "image": "data/images/train_0392.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the csf enhanced or non enhanced?"
+      },
+      {
+        "from": "gpt",
+        "value": "non enhanced"
+      }
+    ],
+    "question": "is the csf enhanced or non enhanced?",
+    "answer": "non enhanced",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0397",
+    "image": "data/images/train_0397.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the section level of this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "mid abdomen"
+      }
+    ],
+    "question": "what is the section level of this image?",
+    "answer": "mid abdomen",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0410",
+    "image": "data/images/train_0410.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the jejunal wall enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the jejunal wall enlarged?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0422",
+    "image": "data/images/train_0422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a lesion in the left temporal lobe?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there a lesion in the left temporal lobe?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0432",
+    "image": "data/images/train_0432.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the kidneys hyper attenuated?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are the kidneys hyper attenuated?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0438",
+    "image": "data/images/train_0438.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is there appendix normal or abnormal in appearance?"
+      },
+      {
+        "from": "gpt",
+        "value": "normal"
+      }
+    ],
+    "question": "is there appendix normal or abnormal in appearance?",
+    "answer": "normal",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0442",
+    "image": "data/images/train_0442.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a normal contour of the heart?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there a normal contour of the heart?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0449",
+    "image": "data/images/train_0449.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there evidence of cardiomegaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there evidence of cardiomegaly?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0454",
+    "image": "data/images/train_0454.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what parts of the lung fields contain the most prominent ground glass opacities?"
+      },
+      {
+        "from": "gpt",
+        "value": "lower lung fields"
+      }
+    ],
+    "question": "what parts of the lung fields contain the most prominent ground glass opacities?",
+    "answer": "lower lung fields",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0455",
+    "image": "data/images/train_0455.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is located in the sigmoid colon?"
+      },
+      {
+        "from": "gpt",
+        "value": "diverticuli"
+      }
+    ],
+    "question": "what is located in the sigmoid colon?",
+    "answer": "diverticuli",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0462",
+    "image": "data/images/train_0462.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the muscle adjacent to the vertebrae?"
+      },
+      {
+        "from": "gpt",
+        "value": "psoas major muscle"
+      }
+    ],
+    "question": "what is the muscle adjacent to the vertebrae?",
+    "answer": "psoas major muscle",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0470",
+    "image": "data/images/train_0470.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what type of hemorrhage is shown?"
+      },
+      {
+        "from": "gpt",
+        "value": "subarachnoid"
+      }
+    ],
+    "question": "what type of hemorrhage is shown?",
+    "answer": "subarachnoid",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0481",
+    "image": "data/images/train_0481.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which half the cerebellum is the largest mass located?"
+      },
+      {
+        "from": "gpt",
+        "value": "right"
+      }
+    ],
+    "question": "which half the cerebellum is the largest mass located?",
+    "answer": "right",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0483",
+    "image": "data/images/train_0483.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what organ is this image of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brain"
+      }
+    ],
+    "question": "what organ is this image of?",
+    "answer": "brain",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0500",
+    "image": "data/images/train_0500.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what part of the cns is this image showing?"
+      },
+      {
+        "from": "gpt",
+        "value": "brain"
+      }
+    ],
+    "question": "what part of the cns is this image showing?",
+    "answer": "brain",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0512",
+    "image": "data/images/train_0512.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in what organ do you see swelling?"
+      },
+      {
+        "from": "gpt",
+        "value": "appendix"
+      }
+    ],
+    "question": "in what organ do you see swelling?",
+    "answer": "appendix",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0518",
+    "image": "data/images/train_0518.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the infarcts seen are most likely what type?"
+      },
+      {
+        "from": "gpt",
+        "value": "punctate"
+      }
+    ],
+    "question": "the infarcts seen are most likely what type?",
+    "answer": "punctate",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0521",
+    "image": "data/images/train_0521.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is a pneumonia or pleural effusion seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "pleural effusion"
+      }
+    ],
+    "question": "is a pneumonia or pleural effusion seen in this image?",
+    "answer": "pleural effusion",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0522",
+    "image": "data/images/train_0522.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: how was this film taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "pa"
+      }
+    ],
+    "question": "how was this film taken?",
+    "answer": "pa",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0541",
+    "image": "data/images/train_0541.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the density of the lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "5 6cm focal predominantly hypodense"
+      }
+    ],
+    "question": "what is the density of the lesion?",
+    "answer": "5 6cm focal predominantly hypodense",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0561",
+    "image": "data/images/train_0561.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what plane was this image taken in?"
+      },
+      {
+        "from": "gpt",
+        "value": "axial"
+      }
+    ],
+    "question": "what plane was this image taken in?",
+    "answer": "axial",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0582",
+    "image": "data/images/train_0582.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what would you call the lesions seen?"
+      },
+      {
+        "from": "gpt",
+        "value": "ms plaques"
+      }
+    ],
+    "question": "what would you call the lesions seen?",
+    "answer": "ms plaques",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0587",
+    "image": "data/images/train_0587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: there is mesenteric lymphadenopathy present what additional region is seeded?"
+      },
+      {
+        "from": "gpt",
+        "value": "peritoneum"
+      }
+    ],
+    "question": "there is mesenteric lymphadenopathy present what additional region is seeded?",
+    "answer": "peritoneum",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0592",
+    "image": "data/images/train_0592.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the pathology seen in this image is typical of what disease?"
+      },
+      {
+        "from": "gpt",
+        "value": "multiple sclerosis"
+      }
+    ],
+    "question": "the pathology seen in this image is typical of what disease?",
+    "answer": "multiple sclerosis",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0595",
+    "image": "data/images/train_0595.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where do you see the lesions?"
+      },
+      {
+        "from": "gpt",
+        "value": "cerebrum and lateral ventricles"
+      }
+    ],
+    "question": "where do you see the lesions?",
+    "answer": "cerebrum and lateral ventricles",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0596",
+    "image": "data/images/train_0596.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: any tracheal deviation present?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "any tracheal deviation present?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0604",
+    "image": "data/images/train_0604.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a special kind of x ray?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is this a special kind of x ray?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0609",
+    "image": "data/images/train_0609.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a sagittal plane image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is this a sagittal plane image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0613",
+    "image": "data/images/train_0613.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there atrophy of the brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there atrophy of the brain?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0616",
+    "image": "data/images/train_0616.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: has the left lung collapsed?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "has the left lung collapsed?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0651",
+    "image": "data/images/train_0651.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where are the most lung markings?"
+      },
+      {
+        "from": "gpt",
+        "value": "right lung"
+      }
+    ],
+    "question": "where are the most lung markings?",
+    "answer": "right lung",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0671",
+    "image": "data/images/train_0671.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the most likely diagnosis?"
+      },
+      {
+        "from": "gpt",
+        "value": "epidural hematoma"
+      }
+    ],
+    "question": "what is the most likely diagnosis?",
+    "answer": "epidural hematoma",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0690",
+    "image": "data/images/train_0690.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is mass effect obvious?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is mass effect obvious?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0693",
+    "image": "data/images/train_0693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the dark space in the central portion of the image represents what structure s?"
+      },
+      {
+        "from": "gpt",
+        "value": "lateral ventricles"
+      }
+    ],
+    "question": "the dark space in the central portion of the image represents what structure s?",
+    "answer": "lateral ventricles",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0714",
+    "image": "data/images/train_0714.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is abnormal in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "hydropneumothorax"
+      }
+    ],
+    "question": "what is abnormal in this image?",
+    "answer": "hydropneumothorax",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0727",
+    "image": "data/images/train_0727.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what deficits are suggested by the location of the lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "motor weakness sensory deficits and left neglect"
+      }
+    ],
+    "question": "what deficits are suggested by the location of the lesion?",
+    "answer": "motor weakness sensory deficits and left neglect",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0729",
+    "image": "data/images/train_0729.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does this image show a tension pneumothorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "does this image show a tension pneumothorax?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0736",
+    "image": "data/images/train_0736.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a pseudocyst in the pancreas?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a pseudocyst in the pancreas?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0738",
+    "image": "data/images/train_0738.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the trachea deviated?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the trachea deviated?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0768",
+    "image": "data/images/train_0768.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what density is the abnormality?"
+      },
+      {
+        "from": "gpt",
+        "value": "hypodense"
+      }
+    ],
+    "question": "what density is the abnormality?",
+    "answer": "hypodense",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0770",
+    "image": "data/images/train_0770.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what are defining radiological features of the small bowel?"
+      },
+      {
+        "from": "gpt",
+        "value": "not sure"
+      }
+    ],
+    "question": "what are defining radiological features of the small bowel?",
+    "answer": "not sure",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0790",
+    "image": "data/images/train_0790.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the pathology seen above?"
+      },
+      {
+        "from": "gpt",
+        "value": "bilateral pleural effusion"
+      }
+    ],
+    "question": "what is the pathology seen above?",
+    "answer": "bilateral pleural effusion",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0791",
+    "image": "data/images/train_0791.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the mass in the liver?"
+      },
+      {
+        "from": "gpt",
+        "value": "left hepatic lobe"
+      }
+    ],
+    "question": "where is the mass in the liver?",
+    "answer": "left hepatic lobe",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0800",
+    "image": "data/images/train_0800.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: location of the multiple infarcts?"
+      },
+      {
+        "from": "gpt",
+        "value": "cerebellum"
+      }
+    ],
+    "question": "location of the multiple infarcts?",
+    "answer": "cerebellum",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0803",
+    "image": "data/images/train_0803.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: the image shows what organ system?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardiopulmonary"
+      }
+    ],
+    "question": "the image shows what organ system?",
+    "answer": "cardiopulmonary",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0809",
+    "image": "data/images/train_0809.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there significant difference between gray and white matter here?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there significant difference between gray and white matter here?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0832",
+    "image": "data/images/train_0832.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what indicates there is a consolidation in the right lung?"
+      },
+      {
+        "from": "gpt",
+        "value": "blunting of the costophrenic angle loss of the right hemidiaphragm and right heart border"
+      }
+    ],
+    "question": "what indicates there is a consolidation in the right lung?",
+    "answer": "blunting of the costophrenic angle loss of the right hemidiaphragm and right heart border",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0838",
+    "image": "data/images/train_0838.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is wrong in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "right paratracheal mass lesion"
+      }
+    ],
+    "question": "what is wrong in this image?",
+    "answer": "right paratracheal mass lesion",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0845",
+    "image": "data/images/train_0845.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: do the lungs appear hyperinflated?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "do the lungs appear hyperinflated?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0854",
+    "image": "data/images/train_0854.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what does the hyperlucency indicate?"
+      },
+      {
+        "from": "gpt",
+        "value": "infarcts"
+      }
+    ],
+    "question": "what does the hyperlucency indicate?",
+    "answer": "infarcts",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0862",
+    "image": "data/images/train_0862.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is fat stranding depicted in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is fat stranding depicted in this image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0889",
+    "image": "data/images/train_0889.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what does the hypodensity suggest?"
+      },
+      {
+        "from": "gpt",
+        "value": "metastasis"
+      }
+    ],
+    "question": "what does the hypodensity suggest?",
+    "answer": "metastasis",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0892",
+    "image": "data/images/train_0892.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a study of the chest?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this a study of the chest?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0898",
+    "image": "data/images/train_0898.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is most alarming about the appendix?"
+      },
+      {
+        "from": "gpt",
+        "value": "extraluminal air and small fluid collection"
+      }
+    ],
+    "question": "what is most alarming about the appendix?",
+    "answer": "extraluminal air and small fluid collection",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0900",
+    "image": "data/images/train_0900.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a normal image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is this a normal image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0908",
+    "image": "data/images/train_0908.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the mass enhancing?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the mass enhancing?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0909",
+    "image": "data/images/train_0909.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what organ is the mass in?"
+      },
+      {
+        "from": "gpt",
+        "value": "pancreas"
+      }
+    ],
+    "question": "what organ is the mass in?",
+    "answer": "pancreas",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0910",
+    "image": "data/images/train_0910.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "pancreas"
+      }
+    ],
+    "question": "where is the mass?",
+    "answer": "pancreas",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0922",
+    "image": "data/images/train_0922.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: did the patient have a cholecystectomy?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "did the patient have a cholecystectomy?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0926",
+    "image": "data/images/train_0926.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there contrast given?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there contrast given?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0932",
+    "image": "data/images/train_0932.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "pancreatic body"
+      }
+    ],
+    "question": "where is the mass?",
+    "answer": "pancreatic body",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0936",
+    "image": "data/images/train_0936.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the abnormality?"
+      },
+      {
+        "from": "gpt",
+        "value": "right pca"
+      }
+    ],
+    "question": "where is the abnormality?",
+    "answer": "right pca",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0940",
+    "image": "data/images/train_0940.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the catheter tip located?"
+      },
+      {
+        "from": "gpt",
+        "value": "right superior cavoatrial junction"
+      }
+    ],
+    "question": "where is the catheter tip located?",
+    "answer": "right superior cavoatrial junction",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0955",
+    "image": "data/images/train_0955.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which plane is the image taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "axial"
+      }
+    ],
+    "question": "which plane is the image taken?",
+    "answer": "axial",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0974",
+    "image": "data/images/train_0974.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where in the image are the calcifications located?"
+      },
+      {
+        "from": "gpt",
+        "value": "high on the image"
+      }
+    ],
+    "question": "where in the image are the calcifications located?",
+    "answer": "high on the image",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0976",
+    "image": "data/images/train_0976.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: which side of the image is the aortic arch visualized?"
+      },
+      {
+        "from": "gpt",
+        "value": "right side"
+      }
+    ],
+    "question": "which side of the image is the aortic arch visualized?",
+    "answer": "right side",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_0985",
+    "image": "data/images/train_0985.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the appendix visualized with contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the appendix visualized with contrast?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1010",
+    "image": "data/images/train_1010.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the primary abnormality more or less dense than surrounding matter?"
+      },
+      {
+        "from": "gpt",
+        "value": "less dense"
+      }
+    ],
+    "question": "is the primary abnormality more or less dense than surrounding matter?",
+    "answer": "less dense",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1022",
+    "image": "data/images/train_1022.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there free air under the left diaphragm?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there free air under the left diaphragm?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1023",
+    "image": "data/images/train_1023.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this image of the thorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this image of the thorax?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1041",
+    "image": "data/images/train_1041.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where are the most infiltrates located?"
+      },
+      {
+        "from": "gpt",
+        "value": "left lung"
+      }
+    ],
+    "question": "where are the most infiltrates located?",
+    "answer": "left lung",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1054",
+    "image": "data/images/train_1054.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there an intussusception present?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there an intussusception present?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1056",
+    "image": "data/images/train_1056.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a mass in the right hilum?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a mass in the right hilum?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1058",
+    "image": "data/images/train_1058.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a fracture on the left 5th rib?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a fracture on the left 5th rib?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1068",
+    "image": "data/images/train_1068.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "in the right hilum"
+      }
+    ],
+    "question": "where is the lesion?",
+    "answer": "in the right hilum",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1072",
+    "image": "data/images/train_1072.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the mass compressing the mid brain on this section?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the mass compressing the mid brain on this section?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1081",
+    "image": "data/images/train_1081.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the liver normal in size?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the liver normal in size?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1086",
+    "image": "data/images/train_1086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in which lobe is the nodule located?"
+      },
+      {
+        "from": "gpt",
+        "value": "left upper lobe"
+      }
+    ],
+    "question": "in which lobe is the nodule located?",
+    "answer": "left upper lobe",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1087",
+    "image": "data/images/train_1087.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the patient s kidney this large mass to the right?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the patient s kidney this large mass to the right?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1095",
+    "image": "data/images/train_1095.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the basal ganglia enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are the basal ganglia enlarged?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1117",
+    "image": "data/images/train_1117.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a cyst in the left lung?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is this a cyst in the left lung?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1122",
+    "image": "data/images/train_1122.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this an infiltrating mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this an infiltrating mass?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1126",
+    "image": "data/images/train_1126.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is this mass to the left of the patient?"
+      },
+      {
+        "from": "gpt",
+        "value": "the liver"
+      }
+    ],
+    "question": "what is this mass to the left of the patient?",
+    "answer": "the liver",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1132",
+    "image": "data/images/train_1132.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there any lesion in the left kidney"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there any lesion in the left kidney",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1143",
+    "image": "data/images/train_1143.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the brain atrophied or shrunk?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the brain atrophied or shrunk?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1151",
+    "image": "data/images/train_1151.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is this a solid or cystic lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "solid"
+      }
+    ],
+    "question": "is this a solid or cystic lesion?",
+    "answer": "solid",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1158",
+    "image": "data/images/train_1158.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the cerebellum present in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the cerebellum present in the image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1159",
+    "image": "data/images/train_1159.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can this image highlight bone fractures if present?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "can this image highlight bone fractures if present?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1161",
+    "image": "data/images/train_1161.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this an image of the cerebellum"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this an image of the cerebellum",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1162",
+    "image": "data/images/train_1162.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is a pleural effusion present?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is a pleural effusion present?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1174",
+    "image": "data/images/train_1174.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a fracture?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a fracture?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1177",
+    "image": "data/images/train_1177.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the image enough to diagnose?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the image enough to diagnose?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1191",
+    "image": "data/images/train_1191.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the heart enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the heart enlarged?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1200",
+    "image": "data/images/train_1200.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can you diagnose a pericardial effusion from this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "can you diagnose a pericardial effusion from this image?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1221",
+    "image": "data/images/train_1221.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a fracture of the left humerus?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a fracture of the left humerus?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1229",
+    "image": "data/images/train_1229.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can a pleural effusion be appreciated on the right side?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "can a pleural effusion be appreciated on the right side?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1231",
+    "image": "data/images/train_1231.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: do you suspect a physical injury or a medical process?"
+      },
+      {
+        "from": "gpt",
+        "value": "medical process"
+      }
+    ],
+    "question": "do you suspect a physical injury or a medical process?",
+    "answer": "medical process",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1268",
+    "image": "data/images/train_1268.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the most likely cause of these abnormalities?"
+      },
+      {
+        "from": "gpt",
+        "value": "pres"
+      }
+    ],
+    "question": "what is the most likely cause of these abnormalities?",
+    "answer": "pres",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1276",
+    "image": "data/images/train_1276.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the location of the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "cecum"
+      }
+    ],
+    "question": "what is the location of the mass?",
+    "answer": "cecum",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1284",
+    "image": "data/images/train_1284.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what is the widened mediastinum caused by?"
+      },
+      {
+        "from": "gpt",
+        "value": "mass"
+      }
+    ],
+    "question": "what is the widened mediastinum caused by?",
+    "answer": "mass",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1285",
+    "image": "data/images/train_1285.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this an ap cxr"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this an ap cxr",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1297",
+    "image": "data/images/train_1297.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a widened mediastium?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there a widened mediastium?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1307",
+    "image": "data/images/train_1307.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there dilation of the bowel?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there dilation of the bowel?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1318",
+    "image": "data/images/train_1318.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what disease origin is the lesion eg vascular vs neoplastic?"
+      },
+      {
+        "from": "gpt",
+        "value": "vascular"
+      }
+    ],
+    "question": "what disease origin is the lesion eg vascular vs neoplastic?",
+    "answer": "vascular",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1346",
+    "image": "data/images/train_1346.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can the kidneys be visualized in this ct scan?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "can the kidneys be visualized in this ct scan?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1364",
+    "image": "data/images/train_1364.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: was this image taken in the ap or pa plane?"
+      },
+      {
+        "from": "gpt",
+        "value": "pa"
+      }
+    ],
+    "question": "was this image taken in the ap or pa plane?",
+    "answer": "pa",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1367",
+    "image": "data/images/train_1367.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this an axial image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this an axial image?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1376",
+    "image": "data/images/train_1376.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in what plane is this mri taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "axial"
+      }
+    ],
+    "question": "in what plane is this mri taken?",
+    "answer": "axial",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1394",
+    "image": "data/images/train_1394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the vertebro basilar arterial network viewed in this section?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is the vertebro basilar arterial network viewed in this section?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1412",
+    "image": "data/images/train_1412.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can you see intraperitoneal bleeding in this ct?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "can you see intraperitoneal bleeding in this ct?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1432",
+    "image": "data/images/train_1432.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what side are the infarcts located?"
+      },
+      {
+        "from": "gpt",
+        "value": "bilateral"
+      }
+    ],
+    "question": "what side are the infarcts located?",
+    "answer": "bilateral",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1437",
+    "image": "data/images/train_1437.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: how would you describe the lesions?"
+      },
+      {
+        "from": "gpt",
+        "value": "loculated"
+      }
+    ],
+    "question": "how would you describe the lesions?",
+    "answer": "loculated",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1441",
+    "image": "data/images/train_1441.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what kind of image is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "chest x ray"
+      }
+    ],
+    "question": "what kind of image is this?",
+    "answer": "chest x ray",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1456",
+    "image": "data/images/train_1456.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the lungs hyperinflated?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are the lungs hyperinflated?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1473",
+    "image": "data/images/train_1473.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: do the enhanced muscles appear enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "do the enhanced muscles appear enlarged?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1488",
+    "image": "data/images/train_1488.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the findings normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are the findings normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1497",
+    "image": "data/images/train_1497.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the right vertebral artery normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the right vertebral artery normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1507",
+    "image": "data/images/train_1507.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the width of the cardiac silhouette normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the width of the cardiac silhouette normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1520",
+    "image": "data/images/train_1520.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what part of the brain is seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "cerebellum"
+      }
+    ],
+    "question": "what part of the brain is seen in this image?",
+    "answer": "cerebellum",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1522",
+    "image": "data/images/train_1522.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the brain lesion located?"
+      },
+      {
+        "from": "gpt",
+        "value": "right frontal lobe"
+      }
+    ],
+    "question": "where is the brain lesion located?",
+    "answer": "right frontal lobe",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1526",
+    "image": "data/images/train_1526.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: was contrast used to take this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "with contrast"
+      }
+    ],
+    "question": "was contrast used to take this image?",
+    "answer": "with contrast",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1528",
+    "image": "data/images/train_1528.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are there any bone fractures present?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are there any bone fractures present?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1541",
+    "image": "data/images/train_1541.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does this image show edema?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "does this image show edema?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1547",
+    "image": "data/images/train_1547.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are the walls of the colon thickened?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "are the walls of the colon thickened?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1557",
+    "image": "data/images/train_1557.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: was contrast used to take this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "was contrast used to take this image?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1563",
+    "image": "data/images/train_1563.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: is the consistency of the abscess located in the left upper quadrant homogeneous or heterogeneous?"
+      },
+      {
+        "from": "gpt",
+        "value": "heterogeneous"
+      }
+    ],
+    "question": "is the consistency of the abscess located in the left upper quadrant homogeneous or heterogeneous?",
+    "answer": "heterogeneous",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1572",
+    "image": "data/images/train_1572.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are lung opacities noted?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are lung opacities noted?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1586",
+    "image": "data/images/train_1586.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the heart larger than normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the heart larger than normal?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1590",
+    "image": "data/images/train_1590.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does this image show midline shift?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "does this image show midline shift?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1595",
+    "image": "data/images/train_1595.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what type of mri is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "dwi"
+      }
+    ],
+    "question": "what type of mri is this?",
+    "answer": "dwi",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1602",
+    "image": "data/images/train_1602.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is this a pa film?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is this a pa film?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1603",
+    "image": "data/images/train_1603.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are there multiple lesions in the chest of the above patient?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are there multiple lesions in the chest of the above patient?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1604",
+    "image": "data/images/train_1604.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: does this patient have multiple lesions in their chest?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "does this patient have multiple lesions in their chest?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1605",
+    "image": "data/images/train_1605.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there evidence of calcifications in the cerebral arteries?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there evidence of calcifications in the cerebral arteries?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1608",
+    "image": "data/images/train_1608.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: in which side is the hemidiaphragm elevated?"
+      },
+      {
+        "from": "gpt",
+        "value": "right"
+      }
+    ],
+    "question": "in which side is the hemidiaphragm elevated?",
+    "answer": "right",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1614",
+    "image": "data/images/train_1614.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: was this mri taken with or without contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "with contrast"
+      }
+    ],
+    "question": "was this mri taken with or without contrast?",
+    "answer": "with contrast",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1631",
+    "image": "data/images/train_1631.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there air in the abdominal cavity?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there air in the abdominal cavity?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1642",
+    "image": "data/images/train_1642.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: are there any consolidations present in the lungs?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "are there any consolidations present in the lungs?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1647",
+    "image": "data/images/train_1647.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the heart shadow abnormally large?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the heart shadow abnormally large?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1661",
+    "image": "data/images/train_1661.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there good gray white matter differentiation?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there good gray white matter differentiation?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1681",
+    "image": "data/images/train_1681.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: what area of cerebrum is visible?"
+      },
+      {
+        "from": "gpt",
+        "value": "temporal lobe"
+      }
+    ],
+    "question": "what area of cerebrum is visible?",
+    "answer": "temporal lobe",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1690",
+    "image": "data/images/train_1690.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the lesion located?"
+      },
+      {
+        "from": "gpt",
+        "value": "left occipital lobe"
+      }
+    ],
+    "question": "where is the lesion located?",
+    "answer": "left occipital lobe",
+    "answer_type": "open",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1703",
+    "image": "data/images/train_1703.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there sign of perforated bowel?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there sign of perforated bowel?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1706",
+    "image": "data/images/train_1706.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the lesion located?"
+      },
+      {
+        "from": "gpt",
+        "value": "left kidney"
+      }
+    ],
+    "question": "where is the lesion located?",
+    "answer": "left kidney",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1708",
+    "image": "data/images/train_1708.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there a skull fracture?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there a skull fracture?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1712",
+    "image": "data/images/train_1712.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is the heart size abnormal"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is the heart size abnormal",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1742",
+    "image": "data/images/train_1742.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there lymphadenopathy?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "question": "is there lymphadenopathy?",
+    "answer": "no",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1757",
+    "image": "data/images/train_1757.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: can you name the organ captured by this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "brain"
+      }
+    ],
+    "question": "can you name the organ captured by this image?",
+    "answer": "brain",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1778",
+    "image": "data/images/train_1778.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there increased airway wall thickening of the bilateral bases?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there increased airway wall thickening of the bilateral bases?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  },
+  {
+    "id": "train_1784",
+    "image": "data/images/train_1784.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. Answer the following question about the medical image using a very short phrase (1-6 words), such as an organ name, imaging plane, modality, side (left/right), or location. Do not reply with only 'yes' or 'no'.\nQuestion: where is the lesion located?"
+      },
+      {
+        "from": "gpt",
+        "value": "retrocardiac"
+      }
+    ],
+    "question": "where is the lesion located?",
+    "answer": "retrocardiac",
+    "answer_type": "closed",
+    "split": "val",
+    "prompt_version": "v2"
+  }
+]

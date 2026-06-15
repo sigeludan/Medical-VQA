@@ -1,0 +1,12 @@
+{
+  "base_model": "/root/autodl-tmp/VQA/models/OpenGVLab/InternVL2-8B",
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "source_checkpoint": "/root/autodl-tmp/VQA/checkpoints/internvl2-vqa-lora-r16/checkpoint-198",
+  "adapter_dir": "/root/autodl-tmp/VQA/checkpoints/internvl2-vqa-lora-r16/adapter",
+  "exported_from_trainer_checkpoint": true,
+  "best_eval_loss": 0.7048941850662231,
+  "best_checkpoint": "/root/autodl-tmp/VQA/checkpoints/internvl2-vqa-lora-r16/checkpoint-198",
+  "global_step": 198,
+  "epoch": 2.0178343949044586
+}

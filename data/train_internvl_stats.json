@@ -1,0 +1,28 @@
+{
+  "prompt_version": "v2",
+  "train_records": 1570,
+  "val_records": 224,
+  "train_closed": 1362,
+  "train_open": 208,
+  "train_file": "/root/autodl-tmp/VQA/data/train_internvl.json",
+  "val_file": "/root/autodl-tmp/VQA/data/val_internvl.json",
+  "sample": {
+    "id": "test_0001",
+    "image": "data/images/test_0001.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nYou are a radiology expert. This is a yes/no question about a medical image. Reply with only one word: 'yes' or 'no'.\nQuestion: is there airspace consolidation on the left side?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "question": "is there airspace consolidation on the left side?",
+    "answer": "yes",
+    "answer_type": "closed",
+    "split": "train",
+    "prompt_version": "v2"
+  }
+}

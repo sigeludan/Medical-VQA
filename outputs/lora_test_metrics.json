@@ -1,0 +1,12 @@
+{
+  "num_samples": 450,
+  "num_closed": 374,
+  "num_open": 76,
+  "closed_exact_match": 0.6310160427807486,
+  "open_bleu1": 0.32044686869246436,
+  "open_rouge_l": 0.38570479228373966,
+  "prompt_version": "v2",
+  "model_path": "/root/autodl-tmp/VQA/models/OpenGVLab/InternVL2-8B",
+  "lora_path": "/root/autodl-tmp/VQA/checkpoints/internvl2-vqa-lora/adapter",
+  "limit": 0
+}

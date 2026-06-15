@@ -1,0 +1,9 @@
+{
+  "total_records": 2244,
+  "unique_images": 2244,
+  "train_records": 1570,
+  "val_records": 224,
+  "test_records": 450,
+  "closed_train": 1362,
+  "open_train": 208
+}

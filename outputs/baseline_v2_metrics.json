@@ -1,0 +1,12 @@
+{
+  "num_samples": 450,
+  "num_closed": 374,
+  "num_open": 76,
+  "closed_exact_match": 0.5213903743315508,
+  "open_bleu1": 0.27403511943413256,
+  "open_rouge_l": 0.3240440115440116,
+  "prompt_version": "v2",
+  "model_path": "/root/autodl-tmp/VQA/models/OpenGVLab/InternVL2-8B",
+  "test_file": "/root/autodl-tmp/VQA/data/vqa_rad_test.jsonl",
+  "limit": 0
+}

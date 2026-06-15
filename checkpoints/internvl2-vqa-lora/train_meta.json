@@ -1,0 +1,11 @@
+{
+  "base_model": "/root/autodl-tmp/VQA/models/OpenGVLab/InternVL2-8B",
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "train_projector": false,
+  "prompt_version": "v2",
+  "train_file": "/root/autodl-tmp/VQA/data/train_internvl.json",
+  "val_file": "/root/autodl-tmp/VQA/data/val_internvl.json",
+  "train_samples": 1570,
+  "val_samples": 224
+}

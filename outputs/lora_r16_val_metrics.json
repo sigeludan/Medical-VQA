@@ -1,0 +1,13 @@
+{
+  "num_samples": 224,
+  "num_closed": 197,
+  "num_open": 27,
+  "closed_exact_match": 0.5228426395939086,
+  "open_bleu1": 0.3202142149716412,
+  "open_rouge_l": 0.38140131473464806,
+  "prompt_version": "v2",
+  "model_path": "/root/autodl-tmp/VQA/models/OpenGVLab/InternVL2-8B",
+  "lora_path": "/root/autodl-tmp/VQA/checkpoints/internvl2-vqa-lora-r16/adapter",
+  "projector_path": null,
+  "limit": 0
+}
