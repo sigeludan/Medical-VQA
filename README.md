@@ -9,11 +9,11 @@
 
 ## 主要结果（test 450，prompt v2）
 
-| 模型 | Closed EM（严格） | Closed EM（宽松） | Open BLEU-1 | Open ROUGE-L |
-|------|------------------:|------------------:|--------------:|-------------:|
-| InternVL2-8B 零样本 | 52.1% | — | 0.274 | 0.324 |
-| **+ LoRA SFT（rank=8）** | **63.1%** | **67.9%** | **0.320** | **0.386** |
-| 相对 baseline 提升 | **+11.0 pp** | +4.8 pp* | +17% | +19% |
+| 模型                     | Closed EM（严格） | Closed EM（宽松） | Open BLEU-1 | Open ROUGE-L |
+| ------------------------ | ----------------: | ----------------: | ----------: | -----------: |
+| InternVL2-8B 零样本      |             52.1% |                 — |       0.274 |        0.324 |
+| **+ LoRA SFT（rank=8）** |         **63.1%** |         **67.9%** |   **0.320** |    **0.386** |
+| 相对 baseline 提升       |      **+11.0 pp** |          +4.8 pp* |      +0.046 |       +0.062 |
 
 \*宽松 EM 在同义词与词边界包含规则下计算，详见 [EXPERIMENT_LOG.md](EXPERIMENT_LOG.md) §5.4。
 
@@ -31,13 +31,13 @@ InternVL2-8B
         目标模块: attention.wqkv, attention.wo, feed_forward.w1/w2/w3
 ```
 
-| 配置项 | 数值 |
-|--------|------|
-| 训练 / 验证 / 测试 | 1570 / 224 / 450 |
-| Epoch | 3 |
-| 有效 batch | 16（2 × 梯度累积 8） |
-| 学习率 | 2e-4，cosine |
-| 可训练参数 | 约 18.9M（0.24%） |
+| 配置项             | 数值                 |
+| ------------------ | -------------------- |
+| 训练 / 验证 / 测试 | 1570 / 224 / 450     |
+| Epoch              | 3                    |
+| 有效 batch         | 16（2 × 梯度累积 8） |
+| 学习率             | 2e-4，cosine         |
+| 可训练参数         | 约 18.9M（0.24%）    |
 
 **负向消融（勿用于正式部署）：** LoRA + mlp1 projector、LoRA rank=16 + early stopping，val EM 均低于 rank=8 主实验。
 
@@ -53,12 +53,15 @@ bash scripts/download_vqa_rad.sh          # 可选：国内镜像下载
 python3 scripts/preprocess_vqa_rad.py
 python3 scripts/build_train_json.py
 ```
+
 **InternVL2-8B**下载：
+
 ```bash
 # ModelScope（国内更快）
 pip install modelscope
 python -c "from modelscope import snapshot_download; snapshot_download('OpenGVLab/InternVL2-8B', cache_dir='./models')"
 ```
+
 将 **InternVL2-8B** 放置在 `models/OpenGVLab/InternVL2-8B`。
 
 ### 2. 零样本 Baseline
