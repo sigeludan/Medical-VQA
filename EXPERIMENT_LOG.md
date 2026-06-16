@@ -314,8 +314,6 @@ python3 scripts/eval_lora.py \
 
 **消融结论**：rank=16 在 val closed EM 上明显差于 rank=8，尽管 val loss 更低，说明 **loss 与 EM 不完全一致**。开放题 BLEU/ROUGE 略好但样本仅 27 条。Early stopping 最佳点（step 198）仍不及 rank=8 训满 3 epoch。**未跑 test**。正式模型保持 **rank=8**。
 
-**工程备注**：`checkpoint-*` 训练结束后可删除，仅保留 `adapter/`；全量 checkpoint 仅用于断点续训或 adapter 导出。
-
 ---
 
 ### Test 最终评估
@@ -346,8 +344,9 @@ python3 scripts/eval_lora.py \
 
 **LoRA vs Baseline（test）**
 
-| **Δ（绝对值）** | **+11.0 pp** | **+0.046** | **+0.062** |
-| **Δ（相对）** | **+21.1%** | **+17.0%** | **+19.0%** |
+| **Δ（绝对值）** | +11.0 pp   | +0.046     | +0.062     |
+| --------------- | ---------- | ---------- | ---------- |
+| **Δ（相对）**   | **+21.1%** | **+17.0%** | **+19.0%** |
 
 ### 5.2 分项对比（test，LoRA-only）
 
@@ -615,8 +614,6 @@ python3 scripts/export_lora_from_checkpoint.py \
 - [x] LoRA rank 16、early stopping → **val 负向**（§4.8）；正式模型仍 rank=8
 - [ ] mlp1 分组学习率（可选）
 - [x] 评估时增加宽松匹配（同义词、包含关系）→ **§5.4**，test Relaxed EM 67.9%
-- [ ] 在 README 中补充样例截图（3 成功 + 2 失败）
-- [ ] 推送 GitHub 公开仓库
 
 ---
 
